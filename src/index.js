@@ -1,5 +1,6 @@
 require('dotenv').config();
 const { Client, GatewayIntentBits, Collection } = require('discord.js');
+const { startServer } = require('./server'); // Import the server
 const { initDatabase } = require('./database');
 const { startScheduler } = require('./scheduler');
 const fs = require('fs');
@@ -46,6 +47,10 @@ for (const file of eventFiles) {
 initDatabase();
 
 // Start Scheduler
+// Start Scheduler
 startScheduler(client);
+
+// Start the web server
+startServer();
 
 client.login(process.env.DISCORD_TOKEN);
