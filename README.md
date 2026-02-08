@@ -1,4 +1,4 @@
-# GrindBot (Discipline Discord Bot)
+# GrindBot (Task List Discord Bot)
 
 A configurable Discord bot that helps users track and complete daily, monthly, and yearly tasks with automated reminders and performance analytics.
 
