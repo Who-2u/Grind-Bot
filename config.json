@@ -1,0 +1,10 @@
+{
+    "limits": {
+        "max_tasks_per_user": 10,
+        "max_reminders_per_task": 3,
+        "cooldown_seconds": 60
+    },
+    "defaults": {
+        "timezone": "Asia/Kolkata"
+    }
+}
